@@ -6,6 +6,10 @@
 用akshare拉取期货，存储在mysql数据库中，然后根据不同品种导入到不同表中，分析表中的数据获取指标，再用LMStudio的服务分析期货数据以下是分析结果
 使用该项目需要按照mysql server和lm studio，
 mysql server端口应存放在3306，lm studio端口设置于8085
+配置好LM Studio 和 mysql server后，安装项目根目录下的requirements.txt所需依赖
+pip install -r requirements.txt
+第一次使用运行initialize.py进行初始化，拉取数据并建立数据库表格
+日常使用获取周报，使用main.py
 
 
 
